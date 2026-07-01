@@ -16,3 +16,11 @@ if water_level > 80:
     print("Drain water")
 else: 
     print("Continue")
+
+"""
+Logic operators: 
+
+A and B
+A or B 
+not A
+"""
