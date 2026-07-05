@@ -103,6 +103,8 @@ def fillWordProgress(word_length, blank_word):
 
     return blank_word
 
+# Note: In python we don't use & in order to reference values
+# 
 def letterAdvance(letter_choice, wordToGuess, word_progress, remainingLives):
     if wordToGuess.count(letter_choice) > 0:
         for i in range (0, len(wordToGuess)):
@@ -153,3 +155,8 @@ be executed. However, when the compiler executes the if __name__ == "__main__" c
 main() function is going to be executed
 """
 
+
+"""
+With this proyect that I did on my own, I actually completed the day 08
+(function parameters)
+"""
