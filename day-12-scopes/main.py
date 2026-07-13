@@ -30,7 +30,7 @@ def main():
 
         attemps -= 1
     if attemps == 0 and not win:
-        print("You have run out of guesses")
+        print(f"You have run out of guesses, the answer was {num}")
 
 if __name__ == "__main__":
     main()
