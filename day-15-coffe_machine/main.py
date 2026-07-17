@@ -1,3 +1,7 @@
+"""
+Create a coffee machine
+"""
+
 # dictionary for all the promts available (espresso, latte, capuccino, off, report)
 
 # dictionary for the kinds of coins 
